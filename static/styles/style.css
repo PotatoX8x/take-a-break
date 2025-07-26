@@ -14,13 +14,13 @@ button.start_mode{
     border-color: green;
 }
 
-#stop_button{
+button.stop_mode{
     margin-top: 5px;
     border-radius: 5px;
     border-color: red;
 }
 
-#reset_button{
+button.reset{
     margin-top: 5px;
     border-radius: 5px;
     border-color: blue;
