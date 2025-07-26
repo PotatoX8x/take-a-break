@@ -5,7 +5,18 @@ body{
 #clock{
     font-size: 12pt;
     text-align: center;
+}
+
+#clock.work_mode {
     color: red;
+}
+
+#clock.break_mode {
+    color: green;
+}
+
+button:active{
+    background-color: #717171;
 }
 
 button.start_mode{
