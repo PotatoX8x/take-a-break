@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Take a Break",
+    "version": "0.1",
+    "description": "A timer for regular breaks during work",
+    "author": "Oleksandr Vonsovych",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Take a Break",
+        "default_icon": "./content/images/extension_icon.png"
+    },
+    "content_scripts": [
+        {
+          "js": ["./static/scripts/timer_logic.js"],
+          "css": ["./static/styles/style.css"],
+          "matches": ["http://*/*"]
+        }
+    ]
+}
